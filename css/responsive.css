@@ -1,0 +1,334 @@
+@media (max-width: 1439px) {
+  .container {
+    width: 1160px;
+    margin: 0px auto;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .f-card {
+    flex: 0 0 calc(100% / 2 - 30px);
+  }
+
+  .f-content {
+    flex: 0 0 calc(35% - 20px);
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  .footer-content .f-content:nth-child(4) {
+    margin: 50px 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .nav {
+    display: none;
+  }
+
+  .banner2 .container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner2 img {
+    width: 100%;
+    display: flex;
+  }
+
+  .d-card {
+    flex: 0 0 calc(100% / 2 - 20px);
+    margin: 20px 5px 0;
+  }
+
+  .p-card {
+    flex: 0 0 calc(100% / 3 - 20px);
+    margin: 10px 10px 0;
+  }
+}
+
+/* tablets */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 40px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: start;
+
+    padding: 40px 0px;
+  }
+
+  h1 {
+    margin-bottom: 27px;
+    font-family: "Rufina", serif;
+    font-weight: 500;
+    font-size: 60px;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .home-img img {
+    width: 200%;
+  }
+
+  .banner2 img {
+    width: 100%;
+  }
+
+  .calender {
+    justify-content: center;
+  }
+
+  .banner2 .home-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .banner2-button {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .home-text {
+    max-width: 100%;
+  }
+
+  .cal {
+    padding: 10px 20px;
+  }
+
+  .f-content .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input .home-button {
+    width: 50%;
+  }
+  .menu {
+    display: none;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 0 0 calc(100% / 2 - 40px);
+    margin: 20px 20px 0px;
+  }
+
+  .p-card {
+    flex: 0 0 calc(100% / 2 - 20px);
+    margin: 10px 10px 0;
+  }
+
+  .d-card {
+    flex: 0 0 calc(100% / 2 - 20px);
+    margin: 20px 5px 0;
+  }
+
+  .f-card {
+    flex: 0 0 calc(90%);
+  }
+
+  .b-text {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 5px 30px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: start;
+
+    padding: 40px 0px;
+  }
+
+  h1 {
+    margin-bottom: 27px;
+    font-family: "Rufina", serif;
+    font-weight: 500;
+    font-size: 60px;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .home-img img {
+    width: 200%;
+  }
+
+  .b-img {
+    width: 100%;
+  }
+
+  .calender {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cal {
+    padding: 5px 10px;
+    margin: 5px;
+  }
+
+  .f-content .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input .home-button {
+    width: 40%;
+  }
+  .menu {
+    display: none;
+  }
+
+  .banner2 img {
+    width: 100%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 0 0 calc(100% / 2 - 40px);
+    margin: 20px 20px 0px;
+  }
+
+  .p-card {
+    flex: 0 0 calc(100% / 2 - 20px);
+    margin: 10px 10px 0;
+  }
+
+  .d-card {
+    flex: 0 0 calc(100% / 2 - 20px);
+    margin: 20px 5px 0;
+  }
+
+  .f-card {
+    flex: 0 0 calc(90%);
+  }
+
+  .f-content {
+    flex: 0 0 calc(100% - 30px);
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 5px 30px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: start;
+
+    padding: 40px 0px;
+  }
+  .home-button {
+    font-size: 12px;
+  }
+
+  h1 {
+    margin-bottom: 27px;
+    font-family: "Rufina", serif;
+    font-weight: 500;
+    font-size: 60px;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .home-img img {
+    width: 200%;
+  }
+
+  .banner2 img {
+    width: 100%;
+  }
+
+  .calender {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cal {
+    padding: 5px 10px;
+    margin: 5px;
+  }
+
+  .f-content .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input .home-button {
+    width: 50%;
+    font-size: 15px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .p-card {
+    flex: 0 0 calc(100% / 2 - 10px);
+    margin: 10px 5px 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .banner2 .home-button {
+    font-size: 10px;
+  }
+}
